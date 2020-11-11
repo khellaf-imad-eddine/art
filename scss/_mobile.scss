@@ -1,0 +1,65 @@
+@media screen and (max-width:600px) {
+    .artists .artists-content .artist-box {
+        width: 100%;
+        min-width: 100%;
+        flex-wrap: wrap;
+        .artist-card {
+            margin-top: 75px;
+            text-align: center;
+            padding: 0;
+            width: 100%;
+        }
+    }
+    .testimonials .testimonials-content .testimonial-box {
+        flex-direction: column;
+        width: 100%;
+        .avatar,
+        .testimonial {
+            margin: auto;
+            text-align: center;
+        }
+        .testimonial {
+            width: 100%;
+            margin-top: 25px;
+        }
+    }
+}
+
+@media screen and (max-width:850px) {
+    .exhibitions .exhibitions-content .exhibition-box {
+        width: 100%;
+        margin: 25px 0;
+        &:nth-child(odd) {
+            padding-right: 0;
+        }
+        &:nth-child(even) {
+            padding-left: 0;
+        }
+        p {
+            margin: 15px 0;
+        }
+    }
+}
+
+@media screen and (max-width:950px) {
+    nav {
+        .nav-link,
+        .nav-user input {
+            display: none;
+        }
+        .nav-mobile {
+            display: block;
+        }
+    }
+    .social-media {
+        display: none;
+    }
+    .header-content {
+        h1 {
+            font-size: 30px;
+        }
+        p {
+            width: 90%;
+        }
+    }
+}
